@@ -1,4 +1,5 @@
 import {getUsers, deleteUser} from './api/userApi.js';
+import './index.css';
 
 //Populate table of users
 getUsers().then(result =>{
